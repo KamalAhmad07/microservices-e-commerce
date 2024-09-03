@@ -1,0 +1,33 @@
+# Ignore Maven target directories
+**/target/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+.vscode/
+
+# Ignore Git directory
+.git/
+
+# Ignore logs
+*.log
+
+## Ignore any local configuration files
+#**/application-local.properties
+#**/application-local.yml
+
+# Ignore any temporary files
+*.tmp
+
+## Ignore Docker files (we'll copy them separately)
+#Dockerfile
+#docker-compose.yml
+
+# Ignore README and other documentation
+*.md
+
+# Ignore test files
+**/src/test/
+
+# Ignore any large files or directories that are not needed for the build
+# Add any other large directories or files specific to your project here
